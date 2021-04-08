@@ -1,0 +1,19 @@
+<label>Codigo: </label>
+<input type="text" name="codigo" [(ngModel)]="estudiante.Codigo">
+<br>
+<label>Nombre: </label>
+<input type="text" name="nombre" [(ngModel)]="estudiante.Nombre">
+<br>
+<label>Semestre: </label>
+<input type="number" name="semestre" [(ngModel)]="estudiante.Semestre">
+<br>
+<label>Facultad: </label>
+<input type="text" name="facultad" [(ngModel)]="estudiante.Facultad">
+<br>
+<label>Edad: </label>
+<input type="text" name="edad" [(ngModel)]="estudiante.Edad">
+<br>
+<label>Email: </label>
+<input type="text" name="email" [(ngModel)]="estudiante.Email">
+<br>
+<input type="button" value="Guardar" (click)="guardar()">
